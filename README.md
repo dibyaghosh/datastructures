@@ -17,8 +17,12 @@ This is a naive (unbalanced) version of a Binary Search Tree
 
 ## Left Leaning Red Black Trees
 
+File: LLRedBlackTree.java
+
 This is an implementation of a LLRBT as defined in https://www.cs.princeton.edu/~rs/talks/LLRB/LLRB.pdf . Simpler to implement than a traditional red-black tree, this tree is used to incorporate 2-3 trees using BSTs. Through rotation, this tree maintains balance, and maintains a maximum height of 2log(n)
 
 ## Priority Queues with Heaps
+
+File: PriorityQueue.java
 
 This is an implementation of a Priority Queue with an internal heap datastructure (https://en.wikipedia.org/wiki/Heap_(data_structure)). Internally, this uses an Arraylist for the heap, maintaining fullness when possible
