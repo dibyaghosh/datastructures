@@ -26,3 +26,9 @@ This is an implementation of a LLRBT as defined in https://www.cs.princeton.edu/
 File: PriorityQueue.java
 
 This is an implementation of a Priority Queue with an internal heap datastructure (https://en.wikipedia.org/wiki/Heap_(data_structure)). Internally, this uses an Arraylist for the heap, maintaining fullness when possible
+
+## Hash Set
+
+File: HashSet.java
+
+This is an implementation of a HashSet as per http://algs4.cs.princeton.edu/34hash/. This particular version incorporates resizable tables (for less collisions) which allows for a configurable memory/time tradeoff.
